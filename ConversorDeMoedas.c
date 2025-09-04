@@ -3,22 +3,22 @@
 #include<stdio.h>
 
 float realParaDolar(float *valor){
-    float taxaCambio = 6.1557; // Taxa de câmbio do real para o dólar
+    float taxaCambio = 5.46; // Taxa de câmbio do real para o dólar
     return *valor / taxaCambio;
 }
 
 float realParaEuro(float *valor){
-    float taxaCambio = 6.333; // Taxa de câmbio do real para o euro
+    float taxaCambio = 6.36; // Taxa de câmbio do real para o euro
     return *valor / taxaCambio;
 }
 
 float dolarParaReal(float *valor){
-    float taxaCambio = 0.1624; // Taxa de câmbio do dólar para o real
+    float taxaCambio = 0.18; // Taxa de câmbio do dólar para o real
     return *valor / taxaCambio;
 }
 
 float euroParaReal(float *valor){
-    float taxaCambio = 0.1579; // Taxa de câmbio do euro para o real
+    float taxaCambio = 0.16; // Taxa de câmbio do euro para o real
     return *valor / taxaCambio;
 }
 
